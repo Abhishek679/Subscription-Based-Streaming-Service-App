@@ -1,10 +1,13 @@
+import { Provider } from 'react-redux';
 import './App.css';
+import Body from './components/Body';
+import appStore from './utils/appStore';
 
 function App() {
   return (
-    <div className="text-3xl font-bold text-yellow-300">
-      Let's start subscription based streaming app
-    </div>
+    <Provider store={appStore}>
+      <Body />
+    </Provider>
   );
 }
 
