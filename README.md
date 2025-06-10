@@ -28,5 +28,18 @@
     - Authentication - Login
     - Create Python backend for signIn and SignOut APIs
     - User Profile and dropdown menu accessible on clicking the user profile.
+    - Register TMDB API & create an app to get access token
+    - Get data from TMDB now playing movies list
+    - Create custom hook for useHighlight video in background
+    - update Store with movies data
+    - create moviesSlice
+    - Create mainContainer and SecondaryContainer for video page
+    - Fetch data for trailer video from IMDB
+    - Embedded iframe for trailer video highlight
+    - Tailwind classes for main container
+    - 
+
+
+
             
 
